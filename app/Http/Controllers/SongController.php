@@ -75,7 +75,7 @@ class SongController extends Controller
         $artist = $request->artist;
         $genre = $request->genre;
         $composer = $request->composer;
-        $year_releared = $request->year_released;
+        $year_released = $request->year_released;
 
         $song = Song::create([
             'song_title' => $song_title, 
